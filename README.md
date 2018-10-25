@@ -3,6 +3,10 @@ Welcome to the QUXA public repository.
 QUXA is a QUIC User eXperience Assesment experiment.
 We use Google Chrome with GQUIC to measure page load time.
 
+# Requirements
+Ubuntu 16.04 machine or VM
+Firewalls/NATs do not block outgoing UDP443 traffic + bind the return port
+
 # Deploy
 We highly recommend that you perform all the test on a **dedicated** machine or virtual machine. 
 
