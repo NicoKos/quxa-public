@@ -39,7 +39,9 @@ qos_logFilePrefix = "qosMetrics_"
 qos_logFilePostFix = ".log"
 #Prefix/Postfix of the QoS log file
 weather_delay_minutes = 30
-#Time to wait after the test is finished before requesting weather data
+#Time to wait after the test is finished before requesting weather data (when using --weather)
+#Indeed, at time of writing, weather reports are made available on IACO with a 30minutes delay.
+#So to retrieve the report of the weather at the moment of the test, we need to wait 30minutes after its completion before asking the report.
 mail_api_key = "my-api-key"
 mail_api_secret = "my-api-secret"
 #Configuration to send email notifications of the test Please see mailjet.com
