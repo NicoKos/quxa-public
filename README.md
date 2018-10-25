@@ -39,7 +39,7 @@ $ sudo python3 scheduler.py
 # Outputs
 Depending on the options provided to main_process.py (see python3 main_process.py --help), the following outputs are created :
 
- * loadTime_<browser_name>_<test_unit_string>.log contains the page load time results as follow. 
+ * loadTime_\<browser_name\>_<test_unit_string>.log contains the page load time results as follow. 
 	- For each load : <linux_time_at_which_the_line_was_written>;<Page_Load_Time_in_ms>;<Time_to_responseStart_in_ms>;<total_duration_open_to_close_in_s>
 	- <browser_name> equals "ChromeQuic" or "ChromeNoQuic" (or anything indicated on the main_process.py header).
 	- <test_unit_string> is the UTC time of the test as follow : YYYY-MM-DD-HHMM-SSZ
