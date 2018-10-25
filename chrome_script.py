@@ -27,6 +27,8 @@ disable_quic_command = "chrome.send('enableExperimentalFeature',['enable-quic' +
 enable_fastopen_command  = "chrome.send('enableExperimentalFeature', ['enable-tcp-fast-open', 'true'])"
 #Commands to use to enable/disable some experimental flags
 
+target2 = "chrome://flags"
+
 def chrome_configure_experimental_flags(myDriver, quic):
     "Function that configure the experimental flags of Chrome"
     myDriver.get('chrome://flags')                      #Load page where configuration javascript commands are allowed
@@ -119,8 +121,8 @@ try:
         if((i+1) < nb_load):
             #If not the last load, wait a uniform random duration
             time.sleep(random.randint(int(release_time_min*1000),int(release_time_max*1000))/1000)
-        del driver
-        del myOptions_loop
+            del driver
+            del myOptions_loop
         #Force loosing all states by deleting structures.
         
 finally:
