@@ -14,8 +14,13 @@ $ sudo ./install.sh
 ```
 
 # Configure
-You need to find your own webpage on a GQUIC capable server somewhere in the internet.
-Then, open **EACH** python script and complete the requested parameters between the *CONFIG* markers.
+ * First, find your own webpage on a GQUIC capable server somewhere in the internet.
+ * Second, retrieve :
+	- The full webpage path
+	- The subdomain name
+	- The ip adress of the server
+ * Configure your /etc/hosts file so that DNS resolution is imposed for the subdomain to the ip adress.
+ * Then, open **EACH** python script and complete the requested parameters between the *CONFIG* markers.
 
 # Launch
 Once configured, to launch test procedure :
