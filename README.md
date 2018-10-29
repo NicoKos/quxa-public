@@ -88,7 +88,6 @@ Depending on the options provided to main_process.py (see python3 main_process.p
 	- \<test_unit_string\> is the UTC time of the test as follow : YYYY-MM-DD-HHMM-SSZ
  	- **Requires** : --weather option
 
-# Outputs
 
 # Contact
 
