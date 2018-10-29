@@ -1,7 +1,6 @@
 # Welcome
-Welcome to the QUXA public repository.
 
-**QUXA is a QUIC User eXperience Assesment EXPERIMENTAL tool provided with no warranties**
+**QUXA (QUIC User eXperience Assesment) is an EXPERIMENTAL tool provided with no warranties**
 
 We use Google Chrome with GQUIC to measure page load time.
 
