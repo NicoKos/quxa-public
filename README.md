@@ -1,11 +1,19 @@
 # Welcome
 Welcome to the QUXA public repository.
-QUXA is a QUIC User eXperience Assesment experiment.
+
+QUXA is a QUIC User eXperience Assesment experiment tool.
+
 We use Google Chrome with GQUIC to measure page load time.
+
+** QUXA is an EXPERIMENTAL tool provided with no warranties **
+
+# Licencing
+QUXA is licenced under GPLv3. 
 
 # Requirements
 Ubuntu 16.04 machine or VM
 Firewalls/NATs do not block outgoing UDP443 traffic + bind the return port
+QUXA is developed in python3 that need to be installed. 
 
 # Deploy
 We highly recommend that you perform all the test on a **dedicated** machine or virtual machine. 
@@ -79,5 +87,12 @@ Depending on the options provided to main_process.py (see python3 main_process.p
 	- Json. Special format. See ICAO API.
 	- \<test_unit_string\> is the UTC time of the test as follow : YYYY-MM-DD-HHMM-SSZ
  	- **Requires** : --weather option
+
+# Outputs
+
+# Contact
+
+Nicolas Kuhn : nicolas.kuhn@cnes.fr
+Emmanuel Dubois : emmanuel.dubois@cnes.fr
 
 

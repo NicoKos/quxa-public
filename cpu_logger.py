@@ -1,3 +1,23 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# 
+# QUXA is a QUIC User eXperience Assesment experiment tool
+#
+# Copyright © 2018 CNES
+#
+# This file is part of the OpenBACH testbed.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY, without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see http://www.gnu.org/licenses/.
+
+
+"""CPU Logger"""
+__author__ = 'Ludovic Thomas'
 
 import psutil
 import sys

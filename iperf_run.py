@@ -1,3 +1,24 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# 
+# QUXA is a QUIC User eXperience Assesment experiment tool
+#
+# Copyright © 2018 CNES
+#
+# This file is part of the OpenBACH testbed.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY, without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see http://www.gnu.org/licenses/.
+
+
+"""IPERF RUN"""
+__author__ = 'Ludovic Thomas'
+
 ############### CONFIG ######################
 target_qos = "ping.online.net" + " "
 #Enter here the domain name (only,  not the full path) of the public iperf3 server to use for link quality measurement. Follow by a space.

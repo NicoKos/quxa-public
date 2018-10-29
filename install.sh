@@ -1,3 +1,27 @@
+#!/bin/bash
+#
+# QUXA is a QUIC User eXperience Assesment experiment tool
+# 
+# Copyright © 2018 CNES
+# 
+# This file is part of QUXA
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY, without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see http://www.gnu.org/licenses/.
+#
+
+# Install script of QUXA tool 
+# Be aware that it is better to have a dedicated vm : 
+# No cleaning script is available. 
+
+# Author : Ludovic Thomas 
+
+
 cd ~
 sudo apt update
 sudo apt install -y python3 python3-pip libiperf-dev git python3-matplotlib
