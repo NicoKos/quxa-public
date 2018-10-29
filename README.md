@@ -1,11 +1,9 @@
 # Welcome
 Welcome to the QUXA public repository.
 
-QUXA is a QUIC User eXperience Assesment experiment tool.
+**QUXA is a QUIC User eXperience Assesment tool provided with no warranties**
 
 We use Google Chrome with GQUIC to measure page load time.
-
-** QUXA is an EXPERIMENTAL tool provided with no warranties **
 
 # Licencing
 QUXA is licenced under GPLv3. 
@@ -59,7 +57,7 @@ Depending on the options provided to main_process.py (see python3 main_process.p
 	- Json chrome specific format
 	- \<browserName\> equals "chromeNoQuic" or "chromeQuic"
 	- \<test_unit_string\> is the UTC time of the test as follow : YYYY-MM-DD-HHMM-SSZ
-	- \<load_index\> is the load index (might for instance equal 0,1 or 2).
+	- \<load_index\> is the load index (might for instance equal 0, 1 or 2).
 	- **Requires** --ilog option
  * cpuUsage_\<browserName\>_\<test_unit_string\>.log contains the cpu usage.
 	- Every 2 seconds : \<linux_time_at_which_the_line_was_written\>;\<cpu_usage_in_percent\>
@@ -91,7 +89,10 @@ Depending on the options provided to main_process.py (see python3 main_process.p
 
 # Contact
 
-Nicolas Kuhn : nicolas.kuhn@cnes.fr
-Emmanuel Dubois : emmanuel.dubois@cnes.fr
+Ludovic THOMAS 
+
+Nicolas KUHN - nicolas.kuhn@cnes.fr
+
+Emmanuel DUBOIS - emmanuel.dubois@cnes.fr
 
 
