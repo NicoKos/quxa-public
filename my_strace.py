@@ -59,7 +59,8 @@ class Strace(object):
             if(self.doContinue):
                 filename = self.outputFolder + "strace_" + self.browserName + "_" + self.dateString + "_" + str(self.counter) + ".log"
                 strace_command = "strace -o " + filename + " -p " + str(self.target_pid)
-                self.straceProcess = subprocess.Popen(strace_command.split(), stdout=subprocess.STDOUT)
+                print("[Strace] Target found. Launching <%s>" % strace_command)
+                self.straceProcess = subprocess.Popen(strace_command.split())
                 self.straceProcess.wait()
                 self.counter = self.counter + 1
     def stop(self):
